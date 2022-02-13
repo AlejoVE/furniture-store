@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>ECommerce - Contact</title>
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<header>
+			<a href="index.html"><h1 class="site-name">Furniture <span>Store</span></h1></a>
+		</header>
+
+		<div class="navbar-container">
+			<nav class="nav-main container">
+				<a href="about.html">About us</a>
+				<a href="store.html">Store</a>
+				<a href="blog.html">Blog</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+
+		<main class="products-main-container container">
+			<h2 class="text-center">Contact</h2>
+            <form class="form">
+                <fieldset>
+                    <legend>Your personal details</legend>
+                    <div class="field">
+                        <label for="name">Name:</label>
+                        <input id="name" type="text" placeholder="Write your name" required>
+                    </div>
+                    <div class="field">
+                        <label for="subject">Subject:</label>
+                        <input id="subject" type="text" placeholder="Your subject" required>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" placeholder="Your email" required>
+                    </div>
+                    <div class="field">
+                        <label for="phone">Phone:</label>
+                        <input id="phone" type="phone" placeholder="Your phone">
+                    </div>
+                    <div class="field">
+                        <label for="message">Message:</label>
+						<textarea  id="message" cols="15" rows="3" required></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Country</legend>
+					<div class="field">
+                        <label for="country">Country:</label>
+						<select id="country" required>
+							<option value="" disabled selected>--Select an option</option>
+							<option value="MX">Mexico</option>
+							<option value="VE">Venezuela</option>
+							<option value="CO">Colombia</option>
+							<option value="BE">Belgium</option>
+						</select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Extra info</legend>
+					<div class="field">
+                        <label for="client">Client:</label>
+                        <input id="client" type="radio" value="client" name="type">
+                    </div>
+					<div class="field">
+                        <label for="provider">Provider:</label>
+                        <input id="provider" type="radio" value="provider" name="type">
+                    </div>
+					<div class="field">
+                        <label for="categories">Category of interest:</label>
+                        <input list="categories"  name="categories">
+						<datalist id="categories">
+							<option value="Kitchen">
+							<option value="Office">
+							<option value="Bedroom">
+							<option value="Interior">
+							<option value="Exterior">
+						</datalist>
+                    </div>
+                </fieldset>
+				<input class="btn" type="submit" value="Send">
+            </form>
+		</main>
+
+		<footer class="footer-container">
+			<div class="footer-grid container">
+				<div>
+					<h3>Categories</h3>
+					<nav class="footer-menu">
+						<a href="#">Kitchen</a>
+						<a href="#">Office</a>
+						<a href="#">Garden</a>
+						<a href="#">Garage</a>
+						<a href="#">Bedrooms</a>
+					</nav>
+				</div>
+				<div>
+					<h3>Abour us</h3>
+					<nav class="footer-menu">
+						<a href="#">Our story</a>
+						<a href="#">Mission, vision and values</a>
+						<a href="#">Careers</a>
+						<a href="#">Privacy Policy</a>
+						<a href="#">Terms of service</a>
+					</nav>
+				</div>
+				<div>
+					<h3>Support</h3>
+					<nav class="footer-menu">
+						<a href="#">FAQs</a>
+						<a href="#">Online Help</a>
+						<a href="#">Confidence and security </a>
+					</nav>
+				</div>
+			</div>
+
+			<p class="copyright">&copy; 2020 Product Store</p>
+		</footer>
+	</body>
+</html>
