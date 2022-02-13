@@ -526,8 +526,14 @@ img {
 }
 
 .entry-content {
-    width: 60rem;
+    width: 40rem;
     margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .entry-content {
+        width: 60rem;
+    }
 }
 
 
