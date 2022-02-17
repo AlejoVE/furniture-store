@@ -1,7 +1,7 @@
 # Furniture store
 
 ## Live Demo
-## [SEE HERE](https://furniture-store-alejove.netlify.app/)
+## <a href="https://furniture-store-alejove.netlify.app/" target="_blank">See it here!</a>
 
 ## Description
 
